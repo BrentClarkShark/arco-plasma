@@ -47,7 +47,7 @@ echo "Installing category Games"
 echo "Installing category Graphics"
 
 #sudo pacman -S --noconfirm --needed darktable
-sudo pacman -S --noconfirm --needed gimp
+#sudo pacman -S --noconfirm --needed gimp
 #sudo pacman -S --noconfirm --needed gnome-font-viewer
 #sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed inkscape
@@ -58,7 +58,7 @@ sudo pacman -S --noconfirm --needed nomacs
 
 echo "Installing category Internet"
 
-sudo pacman -S --noconfirm --needed chromium
+#sudo pacman -S --noconfirm --needed chromium
 #sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
@@ -83,7 +83,7 @@ echo "Installing category Office"
 sudo pacman -S --noconfirm --needed evince
 #sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
-#sudo pacman -S --noconfirm --needed libreoffice-fresh
+sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Other"
